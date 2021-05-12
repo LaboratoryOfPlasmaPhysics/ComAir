@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/libs/IC_STMicroelectronics_SPV1050TTR/eec.lib)(options "")(descr ""))
+  (lib (name 12BHC186P1-GR)(type Legacy)(uri ${KIPRJMOD}/libs/12BHC186P1-GR.lib)(options "")(descr ""))
+  (lib (name DX07S016JA1R1500)(type Legacy)(uri ${KIPRJMOD}/libs/DX07S016JA1R1500/DX07S016JA1R1500.lib)(options "")(descr ""))
+)

@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management:MCP73831-2-OT U?
+U 1 1 609961C0
+P 4825 4250
+AR Path="/609961C0" Ref="U?"  Part="1" 
+AR Path="/609947E5/609961C0" Ref="U301"  Part="1" 
+F 0 "U301" H 5000 3875 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 5250 3975 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4875 4000 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4675 4200 50  0001 C CNN
+	1    4825 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 4350 4325 4350
+Wire Wire Line
+	4325 4350 4325 4475
+$Comp
+L Device:R R301
+U 1 1 6099691F
+P 4325 4625
+F 0 "R301" H 4395 4671 50  0000 L CNN
+F 1 "2k" H 4395 4580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4255 4625 50  0001 C CNN
+F 3 "~" H 4325 4625 50  0001 C CNN
+	1    4325 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0301
+U 1 1 60996E06
+P 4325 4850
+F 0 "#PWR0301" H 4325 4600 50  0001 C CNN
+F 1 "GND" H 4330 4677 50  0000 C CNN
+F 2 "" H 4325 4850 50  0001 C CNN
+F 3 "" H 4325 4850 50  0001 C CNN
+	1    4325 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 4850 4325 4775
+$Comp
+L power:GND #PWR0302
+U 1 1 60997185
+P 4825 4650
+F 0 "#PWR0302" H 4825 4400 50  0001 C CNN
+F 1 "GND" H 4830 4477 50  0000 C CNN
+F 2 "" H 4825 4650 50  0001 C CNN
+F 3 "" H 4825 4650 50  0001 C CNN
+	1    4825 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 4650 4825 4550
+Text HLabel 5875 3000 2    50   Input ~ 0
+VBAT
+Wire Wire Line
+	5225 4150 5350 4150
+$Comp
+L Device:LED D301
+U 1 1 60997FDA
+P 5750 3775
+F 0 "D301" V 5789 3657 50  0000 R CNN
+F 1 "LED" V 5698 3657 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 3775 50  0001 C CNN
+F 3 "~" H 5750 3775 50  0001 C CNN
+	1    5750 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R302
+U 1 1 6099A341
+P 5750 4150
+F 0 "R302" H 5820 4196 50  0000 L CNN
+F 1 "470" H 5820 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 4150 50  0001 C CNN
+F 3 "~" H 5750 4150 50  0001 C CNN
+	1    5750 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4350 5750 4300
+Wire Wire Line
+	5225 4350 5750 4350
+Wire Wire Line
+	5750 4000 5750 3925
+Text HLabel 5875 3100 2    50   Input ~ 0
+USB_VBUS
+$Comp
+L Device:C C301
+U 1 1 6099C87E
+P 6875 3975
+F 0 "C301" H 6990 4021 50  0000 L CNN
+F 1 "4.7uF" H 6990 3930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6913 3825 50  0001 C CNN
+F 3 "~" H 6875 3975 50  0001 C CNN
+	1    6875 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C302
+U 1 1 6099D147
+P 7350 3975
+F 0 "C302" H 7465 4021 50  0000 L CNN
+F 1 "4.7uF" H 7465 3930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7388 3825 50  0001 C CNN
+F 3 "~" H 7350 3975 50  0001 C CNN
+	1    7350 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0303
+U 1 1 6099D4F8
+P 6875 4225
+F 0 "#PWR0303" H 6875 3975 50  0001 C CNN
+F 1 "GND" H 6880 4052 50  0000 C CNN
+F 2 "" H 6875 4225 50  0001 C CNN
+F 3 "" H 6875 4225 50  0001 C CNN
+	1    6875 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 4225 6875 4125
+$Comp
+L power:GND #PWR0304
+U 1 1 6099DD18
+P 7350 4225
+F 0 "#PWR0304" H 7350 3975 50  0001 C CNN
+F 1 "GND" H 7355 4052 50  0000 C CNN
+F 2 "" H 7350 4225 50  0001 C CNN
+F 3 "" H 7350 4225 50  0001 C CNN
+	1    7350 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4225 7350 4125
+Text Label 4550 3850 0    50   ~ 0
+VBUS_USB
+Text Label 6600 3725 0    50   ~ 0
+VBUS_USB
+Wire Wire Line
+	6875 3825 6875 3725
+Text Label 5350 4150 0    50   ~ 0
+VBAT
+Text Label 7525 3725 2    50   ~ 0
+VBAT
+Wire Wire Line
+	7350 3825 7350 3725
+Wire Wire Line
+	7350 3725 7525 3725
+Wire Wire Line
+	6600 3725 6875 3725
+Text Label 5800 3100 2    50   ~ 0
+VBUS_USB
+Wire Wire Line
+	5800 3100 5875 3100
+Text Label 5800 3000 2    50   ~ 0
+VBAT
+Wire Wire Line
+	5800 3000 5875 3000
+Wire Wire Line
+	4550 3850 4825 3850
+Wire Wire Line
+	4825 3850 4825 3950
+Text Label 5550 3575 0    50   ~ 0
+VBUS_USB
+Wire Wire Line
+	5750 3575 5550 3575
+Wire Wire Line
+	5750 3575 5750 3625
+$EndSCHEMATC

@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# STMicroelectronics SPV1050TTR
+#
+DEF SPV1050TTR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "SPV1050TTR" 0 300 50 H V L CNN 
+F2 "STMicroelectronics-SPV1050TTR-*" 0 400 50 H I L CNN 
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/91/0f/7c/32/3e/46/dd/DM00100984.pdf/files/DM00100984.pdf/jcr:content/translations/en.DM00100984.pdf" 0 500 50 H I L CNN 
+F4 "IC" 0 600 50 H I L CNN "category"
+F5 "IC BATTERY CHARGER 20VFQFPN" 0 700 50 H I L CNN "digikey description"
+F6 "497-15978-1-ND" 0 800 50 H I L CNN "digikey part number"
+F7 "QFN40P300X300X90-20" 0 900 50 H I L CNN "ipc land pattern name"
+F8 "yes" 0 1000 50 H I L CNN "lead free"
+F9 "11c88f5d6e077967" 0 1100 50 H I L CNN "library id"
+F10 "STMicroelectronics" 0 1200 50 H I L CNN "manufacturer"
+F11 "511-SPV1050TTR" 0 1300 50 H I L CNN "mouser part number"
+F12 "VFQFPN20" 0 1400 50 H I L CNN "package"
+F13 "yes" 0 1500 50 H I L CNN "rohs"
+F14 "+85°C" 0 1600 50 H I L CNN "temperature range high"
+F15 "-40°C" 0 1700 50 H I L CNN "temperature range low"
+DRAW
+X MPP 1 0 0 100 R 40 40 1 1 U 
+X MPP_REF 3 0 -100 100 R 40 40 1 1 U 
+X MPP_SET 2 0 -200 100 R 40 40 1 1 U 
+X LDO1 11 1500 -800 100 L 40 40 1 1 U 
+X LDO1_EN 5 0 -400 100 R 40 40 1 1 U 
+X LDO2 12 1500 -900 100 L 40 40 1 1 U 
+X LDO2_EN 6 0 -500 100 R 40 40 1 1 U 
+X IN_HV 20 0 -1300 100 R 40 40 1 1 U 
+X IN_LV 16 0 -1400 100 R 40 40 1 1 U 
+X ~BATT_CHG~ 7 1500 -400 100 L 40 40 1 1 U 
+X ~BATT_CONN~ 8 1500 -600 100 L 40 40 1 1 U 
+X BATT 14 1500 0 100 L 40 40 1 1 U 
+X CONF 13 0 -1100 100 R 40 40 1 1 U 
+X EOC 9 0 -700 100 R 40 40 1 1 U 
+X L_HV 19 0 -1600 100 R 40 40 1 1 U 
+X NC 17 1500 -1100 100 L 40 40 1 1 U 
+X STORE 15 1500 -200 100 L 40 40 1 1 U 
+X UVP 10 0 -900 100 R 40 40 1 1 U 
+X GND 4 1500 -1500 100 L 40 40 1 1 U 
+X PGND 18 1500 -1600 100 L 40 40 1 1 U 
+X MNT_PAD 21 1500 -1300 100 L 40 40 1 1 U 
+S 100 100 1400 -1700 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

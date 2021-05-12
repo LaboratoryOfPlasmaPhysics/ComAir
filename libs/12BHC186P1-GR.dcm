@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 12BHC186P1-GR
+D 1 "18650" Battery Holder
+K
+F https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf
+$ENDCMP
+#
+#End Doc Library
